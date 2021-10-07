@@ -65,6 +65,7 @@ header #logo img{
 
 .jumbotron{
     width: 100%;
+    height: 525px;
     margin-top: 80px;
     background-color: #b4d0e7;
 }
@@ -106,11 +107,13 @@ header #logo img{
 
 .img-jumbo{
     width: 60%;
+    margin-top: 30px;
     float: left;
 }
 
 .img-jumbo img{
-    height: 100px;
+    margin-left: 30px;
+    width: 100%;
 }
 /* debug */
 
