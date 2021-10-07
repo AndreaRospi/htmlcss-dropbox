@@ -12,6 +12,24 @@ header{
     height: 80px;
     width: 100%;
     background-color: grey;
+    position: fixed;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left, 
+.right{
+    display: inline-block;
+}
+
+.right{
+    line-height: 80px;
+    float: right;
 }
 
 header .left{
@@ -22,8 +40,27 @@ header ul li{
     display: inline-block;
 }
 
+header ul li a{
+    padding: 0 10px ;
+    text-decoration: none;
+    color: black;
+}
+
 
 header #logo img{
     vertical-align: text-bottom;
 }
 
+.btn{
+    padding: 5px 15px;
+}
+
+.blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+/* debug */
+
+
+}
