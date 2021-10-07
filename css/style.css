@@ -30,6 +30,7 @@ header{
 .right{
     line-height: 80px;
     float: right;
+    margin-right: 15px;
 }
 
 header .left{
