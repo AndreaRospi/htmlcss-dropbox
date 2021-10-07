@@ -7,3 +7,23 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+}
+
+header .left{
+    line-height: 80px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+
+header #logo img{
+    vertical-align: text-bottom;
+}
+
