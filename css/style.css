@@ -128,6 +128,33 @@ main{
     margin: 0 auto;
 }
 
+.fatturazione{
+    margin-top: 30px;
+    line-height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container-main .circle{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.azzurro{
+    border: 3px solid #0061ff;
+}
+
+.grey{
+    border: 1px solid #e5e5e7;
+}
+
+.container-main .fatturazione span{
+    font-size: 12px;
+}
+
 /* debug */
 
 .debug{
