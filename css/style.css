@@ -119,6 +119,7 @@ header #logo img{
 /* main */
 .container-main{
     width: 70%;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
