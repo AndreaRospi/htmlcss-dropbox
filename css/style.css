@@ -164,6 +164,7 @@ main{
 .cln{
     width: calc((100% / 3) - 40px);
     float: left;
+    border: 1px solid black;
 }
 
 .center{
@@ -172,7 +173,7 @@ main{
 
 .title{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .dettagli{
@@ -256,7 +257,7 @@ main{
 
 .debug .cln{
     background-color: rgb(188, 94, 255);
-    height: 300px;
+    
 
 }
 
