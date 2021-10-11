@@ -326,8 +326,16 @@ main{
     margin-top: 100px;
 }
 
+.business h2{
+    font-size: 33px;
+}
+
 .raw-a{
     width: 100%;
+}
+
+.raw-b{
+    width: 100%
 }
 
 .box{
@@ -335,7 +343,18 @@ main{
     float:left
 }
 
+.box img{
+    width: 100%;
+}
 
+.box p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.box a{
+    color: black;
+}
 
     
 
