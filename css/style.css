@@ -8,6 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* inizio header */
+
 header{
     height: 80px;
     width: 100%;
@@ -55,6 +57,9 @@ header #logo img{
     vertical-align: text-bottom;
 }
 
+/* fine header */
+
+/* sezione bottoni */
 .btn{
     padding: 5px 15px;
 }
@@ -69,9 +74,9 @@ header #logo img{
     color: black;
     border: 1px solid black;
 }
+/* /sezione bottoni */
 
-
-
+/* inizio jumbotron */
 .jumbotron{
     width: 100%;
     height: 577px;
@@ -125,6 +130,7 @@ header #logo img{
     margin-left: 30px;
     width: 100%;
 }
+/* /jumbotron */
 
 /* main */
 
@@ -136,6 +142,8 @@ main{
     width: 70%;
     margin: 0 auto;
 }
+
+/* inizio fatturazione */
 
 .fatturazione{
     margin-top: 30px;
@@ -164,7 +172,9 @@ main{
 .container-main .fatturazione span{
     font-size: 12px;
 }
+/* /fatturazione */
 
+/* inizio piani */
 .piani{
     width: 100%;
 }
@@ -249,7 +259,9 @@ main{
 .dettagli .spunta{
     color: #0362ff;
 }
+/* /piani */
 
+/* inizio enterprise */
 .enterprise{
     width: 100%;
     margin-top: 40px;
@@ -288,7 +300,9 @@ main{
     text-decoration: none;
     padding: 5px 40px;
 }
+/* /enterprise */
 
+/* inizio partner */
 .partner{
     width: 100%;
     margin-top: 120px;
@@ -320,9 +334,10 @@ main{
 .partner .partner-text a{
     text-decoration: none;
     font-size: 13px;
-
 }
+/* /partner */
 
+/* inizio business */
 .business{
     width: 100%;
     margin-top: 100px;
@@ -358,8 +373,9 @@ main{
 .box a{
     color: black;
 }
+/* /business */
 
-
+/* inizio clienti */
 .clienti{
     margin-top: 150px;
     margin-bottom: 50px;
@@ -374,7 +390,9 @@ main{
     font-size: 13px;
     color: #3480ff;
 }
+/* /clienti */
 
+/* inizio team */
 .team{
     width: 100%;
 }
@@ -429,7 +447,9 @@ main{
     transform: translate(-50%, -50%);
     filter: invert(1);
 }
+/* /team */
 
+/* sezione colori teams */
 #green{
     background-color: #a2d39b;
     border: 10px solid #d0e9cd;
@@ -462,7 +482,9 @@ main{
 #giallo{
     background-color: #ffd830;
 }
+/* /sezione colori teams */
 
+/* inizio ultimo container prova gratuita */
 .ultimo-container{
     width: 100%;
     background-color: #b4d0e7;
@@ -493,7 +515,9 @@ main{
     color: black;
     padding: 5px 35px;
 }
+/* /ultimo container prova gratuita */
 
+/* inizio domande frequenti */
 .domande-frequenti{
     margin-top: 70px;
 }
@@ -519,7 +543,9 @@ main{
     float: right;
     margin-right: 20px;
 }
+/* /domande frequenti */
 
+/* inizio footer */
 footer{
     margin-top: 30px;
     background-color: black;
@@ -532,6 +558,7 @@ footer{
     padding-top: 80px;
 }
 
+/* inizio sezione footer lista */
 .colonna{
     width: calc(60% / 5);
     float: left;
@@ -556,7 +583,9 @@ footer{
     text-decoration: none;
     color: white;
 }
+/* /sezione footer lista */
 
+/* inizio sezione footer lingua  */
 .container-footer hr{
     border: 0.5px solid white;
     width: 10%;
@@ -576,6 +605,7 @@ footer{
     font-size: 12px;
     vertical-align: sub;
 }
+/* /footer */
 
 
 
