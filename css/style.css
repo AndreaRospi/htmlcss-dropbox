@@ -321,6 +321,21 @@ main{
 
 }
 
+.business{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.raw-a{
+    width: 100%;
+}
+
+.box{
+    width: calc((100% / 3) - 40px);
+    float:left
+}
+
+
 
     
 
@@ -361,3 +376,14 @@ main{
      height: 200px;
      background-color: mediumslateblue;
  } */
+
+
+ .debug .business{
+     height:500px;
+     background-color: magenta;
+ }
+
+ .debug .box{
+     height: 200px;
+     background-color: indigo;
+ }
