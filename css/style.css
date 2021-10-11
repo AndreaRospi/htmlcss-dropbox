@@ -378,14 +378,48 @@ main{
 
 .scatola{
     width: 30vw;
-    height: 40vh;
+    height: 30vw;
     float: left;
 }
  
 .scatola-centro{
-    width: calc(100 - 60);
-    height: 30vh;
+    width: calc(100% - 60vw);
+    height: 30vw;
     float: left;
+    
+}
+
+.quadrato{
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    position: relative;
+}
+
+.quadrato img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+#green{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+#bordeaux{
+    background-color: #61082b;
+}
+
+#azzurro{
+    background-color: #0093ce;
+}
+
+#rosso{
+    background-color:#ff1c1c;
 }
 
 
@@ -443,7 +477,7 @@ main{
  }
 
  .debug .scatola{
-     background-color: indigo;
+     background-color: red;
  }
 
  .debug .scatola-centro{
