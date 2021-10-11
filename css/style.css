@@ -335,7 +335,8 @@ main{
 }
 
 .raw-b{
-    width: 100%
+    width: 100%;
+    margin-top: 90px;
 }
 
 .box{
@@ -397,7 +398,7 @@ main{
  } */
 
 
- .debug .business{
+ /* .debug .business{
      height:500px;
      background-color: magenta;
  }
@@ -405,4 +406,4 @@ main{
  .debug .box{
      height: 200px;
      background-color: indigo;
- }
+ } */
