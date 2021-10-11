@@ -357,6 +357,20 @@ main{
     color: black;
 }
 
+
+.clienti{
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.clienti h2{
+    margin-bottom: 20px;
+}
+
+.clienti a{
+    font-size: 13px;
+    color: #3480ff;
+}
     
 
 
