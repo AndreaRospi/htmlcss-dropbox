@@ -520,6 +520,63 @@ main{
     margin-right: 20px;
 }
 
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.colonna{
+    width: calc(60% / 5);
+    float: left;
+    margin-right: 8%;
+}
+
+.colonna ul{
+    list-style: none;
+}
+
+.colonna h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.colonna ul li{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.colonna ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-footer hr{
+    border: 0.5px solid white;
+    width: 10%;
+    margin-bottom: 50px;
+}
+
+.container-footer span{
+    color: #989898;
+    font-size: 12px;
+}
+
+.container-footer i{
+    color: #989898;
+}
+
+.container-footer .arrow{
+    font-size: 12px;
+    vertical-align: sub;
+}
+
 
 
 
