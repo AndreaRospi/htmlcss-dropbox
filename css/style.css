@@ -378,13 +378,13 @@ main{
 
 .scatola{
     width: 50vw;
-    height: 50vh;
+    height: 40vh;
     float: left;
 }
  
 .scatola-centro{
     width: calc(100 - 60);
-    height: 50vh;
+    height: 30vh;
     float: left;
 }
 
