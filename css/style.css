@@ -360,7 +360,7 @@ main{
 
 .clienti{
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .clienti h2{
@@ -371,7 +371,22 @@ main{
     font-size: 13px;
     color: #3480ff;
 }
-    
+
+.team{
+    width: 100%;
+}
+
+.scatola{
+    width: 50vw;
+    height: 50vh;
+    float: left;
+}
+ 
+.scatola-centro{
+    width: calc(100 - 60);
+    height: 50vh;
+    float: left;
+}
 
 
 
@@ -421,3 +436,16 @@ main{
      height: 200px;
      background-color: indigo;
  } */
+
+ .debug .team{
+     height:900px;
+     background-color: magenta;
+ }
+
+ .debug .scatola{
+     background-color: indigo;
+ }
+
+ .debug .scatola-centro{
+     background-color: indigo;
+ }
