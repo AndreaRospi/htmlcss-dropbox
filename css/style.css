@@ -385,8 +385,29 @@ main{
 .scatola-centro{
     width: calc(100% - 60vw);
     height: 30vw;
-    float: left;
-    
+    padding: 50px;
+    float: left; 
+}
+
+.scatola-centro img{
+    width: 9vw;
+}
+
+.scatola-centro hr{
+    width: 10%;
+    border: 0.5px solid #dbdbde;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.scatola-centro p{
+    font-size: 13px;
+}
+
+.scatola-centro span{
+    display: block;
+    font-size: 13px;
+    margin-top: 25px;
 }
 
 .quadrato{
@@ -397,7 +418,7 @@ main{
 }
 
 .quadrato img{
-    width: 50%;
+    width: 9vw;
     position: absolute;
     top: 50%;
     left: 50%;
