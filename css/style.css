@@ -18,6 +18,7 @@ header{
     top: 0;
     left: 0;
     z-index: 9999;
+    border-bottom: 1px solid #d2d5db;
     
 }
 
@@ -33,13 +34,13 @@ header{
 }
 
 .right{
-    line-height: 80px;
+    line-height: 78px;
     float: right;
     margin-right: 15px;
 }
 
 header .left{
-    line-height: 80px;
+    line-height: 78px;
 }
 
 header ul li{
@@ -50,8 +51,21 @@ header ul li a{
     padding: 0 10px ;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
+header ul li:hover{
+    border-bottom: 2px solid #2165f6;
+}
+
+header ul li#symbol:hover,
+header ul li#last:hover{
+    border-bottom: none;
+}
+
+header ul li a.btn{
+    display: inline;
+}
 
 header #logo img{
     vertical-align: text-bottom;
